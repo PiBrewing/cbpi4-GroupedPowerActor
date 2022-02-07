@@ -1,0 +1,2 @@
+include cbpi4-GroupedPowerActor/config.yaml
+recursive-include cbpi4-GroupedPowerActor/static *
