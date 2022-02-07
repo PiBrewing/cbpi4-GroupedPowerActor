@@ -55,15 +55,15 @@ Afterwards you will need to activate the plugin:
 
 - Once you saved the power setting, the power of the grouped actor and the actors from the group are set. Power is 'filled up' starting with Actor 1. The following image shows an example for 25% power setting of the grouped power actor. Only actor 1 will be set to a value which is equivalent to 33% total power of the group.
 
-![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_25%.png?raw=true)
+![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_25.png?raw=true)
 
 - If you change the power to 50%, actor 1 is set to 100% and Actor 2 power will be set to a value of ~ 50%. This is equivalent to 50% of the total power of this group.
 
-![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_50%.png?raw=true)
+![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_50.png?raw=true)
 
 - If you forther increase  the power to 80%, actor 1 and 2 are set to 100% and Actor 3 power will be set to a value of ~ 40%. This is equivalent to 80% of the total power of this group.
 
-![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_80%.png?raw=true)
+![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_80.png?raw=true)
 
 - If you click on the grouped actor button, all actors in the group will be switched on.
 
