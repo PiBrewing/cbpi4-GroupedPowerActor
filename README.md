@@ -53,7 +53,7 @@ Afterwards you will need to activate the plugin:
 
 ![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-setpower.png?raw=true)
 
-- Once you saved the power setting, the power of the grouped actor and the actors from the group are set. Power is 'filled up' starting with Actor 1. The following image shows an example for 25% power setting of the grouped power actor. Only actor 1 will be set to a value which is equivalent to 33% total power of the group.
+- Once you saved the power setting, the power of the grouped actor and the actors from the group are set. Power is 'filled up' starting with Actor 1. The following image shows an example for 25% power setting of the grouped power actor. Only actor 1 will be set to a value which is equivalent to 25% total power of the group.
 
 ![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_25.png?raw=true)
 
@@ -75,4 +75,5 @@ The grouped actor can be alo used in the Kettle Logic plugins that use power set
 
 Changelog:
 
+- 07.02.22: (0.0.3) Removal of duplicated mqtt messages
 - 07.02.22: (0.0.2) Initial commit 
