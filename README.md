@@ -61,7 +61,7 @@ Afterwards you will need to activate the plugin:
 
 ![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_50.png?raw=true)
 
-- If you forther increase  the power to 80%, actor 1 and 2 are set to 100% and Actor 3 power will be set to a value of ~ 40%. This is equivalent to 80% of the total power of this group.
+- If you further increase  the power to 80%, actor 1 and 2 are set to 100% and Actor 3 power will be set to a value of ~ 40%. This is equivalent to 80% of the total power of this group.
 
 ![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_80.png?raw=true)
 
