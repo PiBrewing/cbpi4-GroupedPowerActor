@@ -110,14 +110,23 @@ class GroupedPowerActor(CBPiActor):
         idx = np.searchsorted(self.powersum, power, side="left")
         max_actor_power=int(self.powersum[idx])
         active_actor_power = round(100*power/max_actor_power)
-#        logging.info(power)
-#        logging.info(idx)
-#        logging.info(active_actor_power)
-        i=0
-        while i <= idx:
-            self.actorpower[i]=active_actor_power
-            i+=1
-#        logging.info(self.actorpower)
+        if idx == 0:
+            self.actorpower[0]=active_actor_power
+        else:
+            fixed_actor_power = int(self.powersum[idx-1])
+            i=0
+            while i < idx:
+                self.actorpower[i]=100
+                i+=1
+            remaining_actor_power=power-fixed_actor_power
+            variable_actor_power = round(100*remaining_actor_power/round(self.actorportion))
+            if int(variable_actor_power) > 100:
+                variable_actor_power = 100
+            if int(variable_actor_power) < 0:
+                variable_actor_power = 0           
+            self.actorpower[idx]=variable_actor_power
+
+        logging.info(self.actorpower)
         pass
 
 
