@@ -41,8 +41,37 @@ Afterwards you will need to activate the plugin:
 
 - You can add individual Actors to your dashboard
 - Add the grouped Actor to your dashboard and enable actions to set power for the actor group
+- The example below shows the grouped actor configuration for three actors that are in the group:
+
+![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_settings.png?raw=true)
+
+- If you click on the action menu of the grouped actor (3 dots on the right), the actions menu will be opend to set the power
+
+![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_actionmenu.png?raw=true)
+
+- If you choose 'Set Power', the corresponding dialog will open and you can set the power for the grouped actor. Hit save.
+
+![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-setpower.png?raw=true)
+
+- Once you saved the power setting, the power of the grouped actor and the actors from the group are set. Power is 'filled up' starting with Actor 1. The following image shows an example for 25% power setting of the grouped power actor. Only actor 1 will be set to a value which is equivalent to 33% total power of the group.
+
+![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_25%.png?raw=true)
+
+- If you change the power to 50%, actor 1 is set to 100% and Actor 2 power will be set to a value of ~ 50%. This is equivalent to 50% of the total power of this group.
+
+![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_50%.png?raw=true)
+
+- If you forther increase  the power to 80%, actor 1 and 2 are set to 100% and Actor 3 power will be set to a value of ~ 40%. This is equivalent to 80% of the total power of this group.
+
+![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_80%.png?raw=true)
+
+- If you click on the grouped actor button, all actors in the group will be switched on.
+
+![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_on.png?raw=true)
+
 
 The grouped actor can be alo used in the Kettle Logic plugins that use power settings (e.g. PIDBoil,...)
+
 
 Changelog:
 
