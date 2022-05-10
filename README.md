@@ -75,6 +75,7 @@ The grouped actor can be alo used in the Kettle Logic plugins that use power set
 
 Changelog:
 
+- 10.05.22: (0.0.5) Removed cbpi dependency
 - 25.02.22: (0.0.4) Changed README -> pip install available
 - 07.02.22: (0.0.3) Removal of duplicated mqtt messages
 - 07.02.22: (0.0.2) Initial commit 
