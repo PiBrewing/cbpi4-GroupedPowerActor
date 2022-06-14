@@ -147,7 +147,7 @@ class GroupedPowerActor(CBPiActor):
         idx = np.searchsorted(self.powersum, power, side="left")
         #logging.info(idx)
         #logging.info(self.powersum)
-        max_actor_power=int(self.powersum[idx-1])
+        max_actor_power=int(self.powersum[idx])
         #logging.info(max_actor_power)
         active_actor_power = round(100*power/max_actor_power)
         #logging.info(active_actor_power)

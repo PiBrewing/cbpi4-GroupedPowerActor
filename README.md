@@ -72,7 +72,7 @@ The grouped actor can be alo used in the Kettle Logic plugins that use power set
 
 Changelog:
 
-- 13.06.22: (0.0.7 a1) Test with individual power settings per actor (e.g. 1200 and 1800 Watt element)
+- 13.06.22: (0.0.7 a2) Test with individual power settings per actor (e.g. 1200 and 1800 Watt element)
 - 11.05.22: (0.0.6) Updated README (removed cbpi add)
 - 10.05.22: (0.0.5) Removed cbpi dependency
 - 25.02.22: (0.0.4) Changed README -> pip install available
