@@ -7,11 +7,11 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='cbpi4-GroupedPowerActor',
-      version='0.0.6',
+      version='0.1.0',
       description='CraftBeerPi4 Plugin to Group Actors',
       author='Alexander Vollkopf',
       author_email='avollkopf@web.de',
-      url='https://github.com/avollkopf/cbpi4-GroupedPowerActor',
+      url='https://github.com/PiBrewing/cbpi4-GroupedPowerActor',
       include_package_data=True,
       package_data={
         # If any package contains *.txt or *.rst files, include them:

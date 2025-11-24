@@ -22,13 +22,10 @@
 
 ### Installation:
 
-You can install it directly via pypi.org:	
-- sudo pip3 install cbpi4-GroupedPowerActor
+Please have a look at the [Craftbeerpi4 Documentation](https://openbrewing.gitbook.io/craftbeerpi4_support/readme/plugin-installation)
 
-Alternativeley you can install (or clone) it from the GIT Repo. In case of updates, you will find them here first:
-- sudo pip3 install https://github.com/avollkopf/cbpi4-GroupedPowerActor/archive/main.zip
-
-- cbpi >= 4.0.0.45 from my fork is required. 
+- Package name: cbpi4-GroupedPowerActor
+- Package link: https://github.com/PiBrewing/cbpi4-GroupedPowerActor/archive/main.zip
 
 ## Parameters:
 
@@ -40,31 +37,31 @@ Alternativeley you can install (or clone) it from the GIT Repo. In case of updat
 - Add the grouped Actor to your dashboard and enable actions to set power for the actor group
 - The example below shows the grouped actor configuration for three actors that are in the group:
 
-![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_settings.png?raw=true)
+![Settings](https://github.com/PiBrewing/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_settings.png?raw=true)
 
 - If you click on the action menu of the grouped actor (3 dots on the right), the actions menu will be opend to set the power
 
-![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_actionmenu.png?raw=true)
+![Settings](https://github.com/PiBrewing/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_actionmenu.png?raw=true)
 
 - If you choose 'Set Power', the corresponding dialog will open and you can set the power for the grouped actor. Hit save.
 
-![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-setpower.png?raw=true)
+![Settings](https://github.com/PiBrewing/cbpi4-GroupedPowerActor/blob/main/cbpi4-setpower.png?raw=true)
 
 - Once you saved the power setting, the power of the grouped actor and the actors from the group are set. Power is 'filled up' starting with Actor 1. The following image shows an example for 25% power setting of the grouped power actor. Only actor 1 will be set to a value which is equivalent to 33% total power of the group.
 
-![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_25.png?raw=true)
+![Settings](https://github.com/PiBrewing/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_25.png?raw=true)
 
 - If you change the power to 50%, actor 1 is set to 100% and Actor 2 power will be set to a value of ~ 50%. This is equivalent to 50% of the total power of this group.
 
-![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_50.png?raw=true)
+![Settings](https://github.com/PiBrewing/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_50.png?raw=true)
 
 - If you further increase  the power to 80%, actor 1 and 2 are set to 100% and Actor 3 power will be set to a value of ~ 40%. This is equivalent to 80% of the total power of this group.
 
-![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_80.png?raw=true)
+![Settings](https://github.com/PiBrewing/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_80.png?raw=true)
 
 - If you click on the grouped actor button, all actors in the group will be switched on.
 
-![Settings](https://github.com/avollkopf/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_on.png?raw=true)
+![Settings](https://github.com/PiBrewing/cbpi4-GroupedPowerActor/blob/main/cbpi4-GroupedPowerActor_on.png?raw=true)
 
 
 The grouped actor can be alo used in the Kettle Logic plugins that use power settings (e.g. PIDBoil,...)
@@ -72,6 +69,7 @@ The grouped actor can be alo used in the Kettle Logic plugins that use power set
 
 Changelog:
 
+- 24.11.25: (0.1.0) Added pyproject.toml to support pip 25.3+
 - 11.05.22: (0.0.6) Updated README (removed cbpi add)
 - 10.05.22: (0.0.5) Removed cbpi dependency
 - 25.02.22: (0.0.4) Changed README -> pip install available
